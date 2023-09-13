@@ -1,0 +1,43 @@
+h1, h2{
+    color:rgb(5, 5, 114)
+}
+
+table, tr, td, th{
+    margin-left: 10px;
+    border:solid black 3.5px;
+    background-color: rgb(58, 225, 58);
+    width:200px;
+    height:60px;
+    text-align: center;
+    padding:0.2px 0.2px 0.2px 0.2px;
+    border-style:outset;
+}
+
+.margin{
+   margin-left: 50px; 
+}
+
+.frame{
+    background-color: rgb(174, 242, 110);
+    /* margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 70px; */
+    margin : 50px 200px 50px 100px
+}
+
+span{
+    background-color: pink;
+    font-weight:bolder;
+    font-size:40px;
+    font-style: italic;
+    color:blue;
+}
+
+hr{
+    background-color: black;
+    color:black;
+    border-width:0;
+    height:1px;
+
+}
