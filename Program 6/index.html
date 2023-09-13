@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="sample.css">
+        <title>Form</title>
+    </head>
+    <body>
+        <div class="formbody">
+        <h1>Personal Details</h1>
+        <form>
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name" autocomplete="off">
+            <br>
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <label for="email">E-mail id :</label>
+            <input type="email" id="email" name="email" autocomplete="off">
+            <br>
+            <label for="gender">Gender</label>
+            <input type="radio" id="gender" name="gender"><label>Male</label>
+            <input type="radio" id="gender" name="gender"><label>Female</label>
+            <br>
+            <label for="contact">Contact No. :</label>
+            <input type="tel" id="contact" name="phone">
+            <br>
+        </form>
+        <h1>Educational Qualification</h1>
+        <form>
+            <label for="degree">Degree :</label>
+            <select>
+                <option>--Select Group--</option>
+                <option>B.E / B.Tech</option>
+                <option>MBA</option>
+                <option>MCA</option>
+                <option>M.Tech</option>
+            </select>
+            <br>
+            <label for="engineering">Engineering :</label>
+            <select>
+                <option>--Select Group--</option>
+                <option>CSE</option>
+                <option>ISE</option>
+                <option>ECE</option>
+                <option>Mech</option>
+                <option>Civ</option>
+                <option>EEE</option>
+            </select>
+            <br>
+            <label for="hobbies">Hobbies :</label>
+            <input type="checkbox" id="hobbies" name="hobby"><label>Playing Chess</label>
+            <input type="checkbox" id="hobbies" name="hobby"><label>Reading Books</label>
+        </form>
+        <h1>Address</h1> 
+        <form>
+            <textarea></textarea>
+            <br>
+            <label for="resume">Attach Resume</label>
+            <input type="file">
+            <br>
+            <input type="Submit">
+        </form>
+    </div>
+    </body>
+</html>
